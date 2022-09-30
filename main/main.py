@@ -31,14 +31,14 @@ valid = pn.is_valid_number(match.number)
 possible = pn.is_possible_number(match.number)
   
 # print the of a phonenumber
-print("Natoinal_Format",National)
-print("Interatoinal_Format",International)
-print("E164_Format",E164)
+print("Natoinal_Format :",National)
+print("Interatoinal_Format :",International)
+print("E164_Format :",E164)
 print("TimeZone :",timeZone)
 print("Carrier :",Carrier)
-print("Carrier :",Region)
-print("Validity",valid)
-print("possibility",possible)
+print("Country :",Region)
+print("Validity :",valid)
+print("possibility :",possible)
 
 
 
